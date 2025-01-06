@@ -2,15 +2,30 @@ public class StringPractice {
   public static void main(String[] args) {
     // Create a string with at least 5 characters and assign it to a variable
 
+    String string = "JavaScript";
+
     // Find the length of the string
+
+    int stringLen = string.length();
 
     // Concatenate (add) two strings together and reassign the result
 
+    String result = string.concat("Java");
+
+
+    
+
     // Find the value of the character at index 3
+
+    result.charAt(3);
 
     // Check whether the string contains a given substring (i.e. does the string have "abc" in it?)
 
+    result.contains("Scr");
+
     // Iterate over the characters of the string, printing each one on a separate line
+
+    
 
     // Create an ArrayList of Strings and assign it to a variable
 
