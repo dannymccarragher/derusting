@@ -23,7 +23,7 @@ public class StringPractice {
 
     // Check whether the string contains a given substring (i.e. does the string have "abc" in it?)
 
-    result.contains("Scr");
+    result.contains("abc");
 
     // Iterate over the characters of the string, printing each one on a separate line
 
@@ -48,6 +48,14 @@ public class StringPractice {
 
     System.out.println(joinResult);
     // Check whether two strings are equal
+    String string1 = "Words";
+    String string2 = "Word";
+
+    if(string1.equals(string2)){
+      System.out.println("Strings are equal");
+    } else{
+      System.out.println("Strings are not equal");
+    }
 
     /*
      * Reminder!
